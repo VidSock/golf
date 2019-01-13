@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<title>Welcome to The Blue Tees! </title>
+		
+		<style>
+			#section-header{order:1; width:100%;}
+			#section-main{order:2; width:100%;}
+			#section-aside{order:4; width:32%;}
+			#section-footer{order:4; width:100%;}
+			
+	body{
+	padding: 0;
+	margin: 0;
+	font-family: Trebuchet MS, Tahoma, helvetica, sans-serif;
+	background-color: #189D00;
+	color: #535232;
+	line-height:1.4em;
+	text-align:center;
+	display:flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; 
+	}
+
+	
+	
+	header{ display:block; text-align:left; background: transparent; padding:0 0;}
+	
+	main{ border:0px solid #333; /* background-image:linear-gradient(#445c6f 100%, #364b5e 40%); */ padding:.5em; border-radius:12px;}
+	
+	aside{border-radius:12px;}
+	
+	footer{ padding:2em; background-color: #445c6f; margin:2em 0 0 0; color:#fff; display: none;}
+	
+	
+	.content-panel{ border-radius: 12px; padding:12px;}
+	.content-inner{margin:0 0 12px 0; padding:1em 2em; background:#fbfbfb; border-radius: 9px; text-align: left; border:0px solid #aeabab; box-shadow: 0px 0px 6px #7e8082}
+	
+	.aside-inner{margin:0 0 12px 0; padding:1em 2em; background:#fbfbfb; border-radius: 9px; text-align: left; border:0px solid #aeabab; box-shadow: 0px 0px 6px #7e8082}
+	
+	img{max-width: 100%}
+
+/* * {border:1px solid red;} */
+	
+	@media screen and (max-width: 48em) {
+		
+/* 		#section-header{order:5; position:fixed; padding:0; bottom:0; text-align:left; background-color:#414556; height:10%;} */
+		#section-main{width:100%; display:block; border-radius:0; margin-bottom:0;}
+		#section-aside{width:100%; display:block; border-radius:0; padding:2px; margin-bottom:3em;}
+		footer{padding:0 0 400px 0; color:#fff; width:100%; display:none;}
+		
+		main {border-radius: 0; padding:0 .5em;}
+		.aside-inner{border-radius: 0;}
+		.content-inner{padding:1.2em; line-height: 2.4em; margin:0 0 2em 0;}
+		
+/* 		header img {max-width:30%; margin:3px 10px; padding:5px 5px 10px 5px;} */
+
+			#section-main{order:2;}
+			#section-aside{order:1;}
+		
+		}
+		</style>
+	</head>
+	<body>
+		
+	<section id="section-header">
+	<header><img src="blue-tees-header.jpg" /></header>
+	</section>
+	
+	<section id="section-main">
+	<main class="">
+		
+
+					
+					
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfP1OVgtGU3-tr_ZWJCyoJMfOQY0HX8OOVynEClMCZvN-GERA/viewform?embedded=true" width="100%" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+					
+			
+		</main>
+	</section>
+	
+<!--
+	<section id="section-aside">	
+		<aside class="">
+					<div class="aside-inner">
+						<p>Lorem ipsum dolor sit amet, consecte non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+		</aside>
+	</section>
+-->
+			
+			
+			<section id="section-footer">		
+		<footer><p>Lorem ipsum dolot anim id est laborum.</p></footer>
+			</section>
+	
+
+	</body>
+</html>
+
